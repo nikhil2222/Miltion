@@ -4,7 +4,7 @@ nav {
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  padding-right: 20%;
+  padding-right: 10%;
   flex-wrap: wrap;
   border-bottom: 2px solid black;
   position: fixed;
@@ -51,7 +51,7 @@ input[type="checkbox"] {
   display: none;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1283px) {
   nav {
     padding-right: 20%;
     padding-left: 10%;
