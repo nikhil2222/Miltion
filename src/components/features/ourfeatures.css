@@ -1,0 +1,110 @@
+.features{
+    padding-top: 200px;
+}
+
+.mainfeatures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mainfeatures h5{
+    background-color: #E3DDDC;
+    border-radius: 20px;
+    padding:10px;
+}
+
+.features-row1{
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0px;
+    text-align: center;
+}
+
+.seamless{
+    display: flex;
+}
+
+.seamless-colums{
+    flex: 1;
+    padding: 20px;
+}
+
+
+  .custom-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .seamless-col-1-row-1{
+    padding-top: 100px;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+  }
+
+  .seamless-col-1-row-1 h5{
+    background-color: #FDDED6;
+    border-radius: 20px;
+    padding:10px;
+  }
+
+  .seamless-col-1-row-2{
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .seamless-col-1-row-3{
+    font-size: 20px;
+    color: #999493FF;
+    padding-top: 50px;
+    font-weight: grey;
+
+  }
+
+  .seamless-col-1-row-4{
+    display: flex;
+    padding-top: 50px;
+  }
+
+  .carleimage{
+    padding-top: 70px;
+  }
+
+  .carle p{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 15px 15px 15px 2px;
+    font-weight: bold;
+  }
+
+  .imagecalendar{
+    width: auto;
+    height: auto;
+    padding-top: 100px;
+    padding-left: 50px;
+  }
+
+
+
+@media only screen and (max-width: 1024px) {
+  .seamless{
+    display: grid;
+}
+
+.seamless-colums{
+  flex: 1;
+  padding: 15px;
+}
+
+.imagecalendar{
+  width: 80%;
+  height: 80%;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+}
+ 

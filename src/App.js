@@ -1,24 +1,38 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Footer from './components/FooterComponent/Footer';
+import Front from './components/Front/Front';
+import Navbar from './components/Navbar/Navbar';
+import Ourfeatures from './components/OurFeatures/Ourfeatures';
+import Pricing from './components/Pricing/Pricing';
+import Remainder from './components/Remainder/Remainder';
+import SeamlessScheduling from './components/SeamlessScheduling/SeamlessScheduling';
+import SmartRemainderTask from './components/SmartRemainderTask/SmartRemainderTask';
+import Features from './components/features/Features';
+import Frequenlty from './components/frequenlty/Frequenlty';
+import LastCall from './components/lastCall/LastCall';
+import Testimonials from './components/testi-monial/Testimonials';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Navbar></Navbar>
+    <Front></Front>
+    <Features></Features>
+    <Remainder></Remainder>
+    <SeamlessScheduling></SeamlessScheduling>
+    <SmartRemainderTask></SmartRemainderTask>
+    <Ourfeatures></Ourfeatures>
+    <Testimonials></Testimonials>
+    <Pricing></Pricing>
+    <Frequenlty></Frequenlty>
+    <LastCall></LastCall>
+    <Footer></Footer>
+   
+
+    </>
+   
   );
 }
 

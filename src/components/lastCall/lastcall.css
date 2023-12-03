@@ -1,0 +1,97 @@
+.front{
+    padding-top: 200px;
+    text-align: center;
+}
+
+.front-row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.front-row1 h5{
+    background-color: #E3DDDC;
+    border-radius: 20px;
+    font-size: 15px;
+    padding:5px;
+
+}
+
+.front-row2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.front-row3{
+    font-size: 20px;
+    color:#999493FF ;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+.custom-button {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+
+  .custom-button:hover {
+    transform: scale(1.1); 
+  }
+  
+  .front-row4{
+    font-size: 10px;
+    color:#999493FF ;
+}
+
+.supercharge {
+    display: inline-block;
+    margin-top: 100px;
+    
+}
+
+.supercharge img{
+    border: 1px solid grey; 
+    border-radius: 25px;
+    max-width: 100%;
+    margin-right: 100px;
+    
+}
+
+.seamless-col-1-row-4{
+    display: flex;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0 auto;
+    justify-content: center; 
+    align-items: center; 
+  }
+
+  .carleimage{
+    padding-top: 70px;
+  }
+
+  .carle p{
+    background-color: rgb(254 233 203);
+    color: black;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 15px 15px 15px 2px;
+    font-weight: bold;
+  }
+
+
+

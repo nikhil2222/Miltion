@@ -1,0 +1,142 @@
+nav {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20%;
+  flex-wrap: wrap;
+  border-bottom: 2px solid black;
+  position: fixed;
+  background-color: #fcf8f8;
+  transform: translateX(-7%);
+  z-index: 1000;
+}
+nav .logo {
+  color: black;
+  font-size: 35px;
+  font-weight: 600;
+  padding-left: 10%;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 5px;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+nav .menu-btn i {
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"] {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  nav {
+    padding-right: 20%;
+    padding-left: 10%;
+    position: fixed;
+  }
+  nav .menu-btn i {
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before {
+    content: "\f00d";
+  }
+  nav ul {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background-color: #fcf8f8;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  #click:checked ~ ul {
+    left: 0;
+  }
+  nav ul li {
+    width: 100%;
+    margin: 40px 0;
+  }
+  nav ul li a {
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .buttons{
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a {
+    margin-left: 0px;
+  }
+
+  nav ul li a:hover {
+    background: none;
+    color: rgb(179, 190, 190);
+  }
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: -1;
+  width: 100%;
+  padding: 0 30px;
+  color: #1b1b1b;
+}
+.content div {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.buttons {
+  display: flex;
+  padding-left: 150px;
+}
+
+.login-btn,
+.get-started-btn {
+  background-color: #55a1ff;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+}
+
+.login-btn:hover,
+.get-started-btn:hover {
+  transform: scale(1.1);
+}

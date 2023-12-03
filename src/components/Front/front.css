@@ -1,0 +1,104 @@
+.front{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.front-row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.front-row1 h5{
+    background-color: #E3DDDC;
+    border-radius: 20px;
+    padding:5px;
+
+}
+
+.front-row2{
+    font-size: 100px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.front-row3{
+    font-size: 20px;
+    color:#999493FF ;
+}
+
+.custom-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+
+  .custom-button:hover {
+    transform: scale(1.1); 
+  }
+  
+  .front-row4{
+    font-size: 15px;
+    color:#999493FF ;
+    padding-top: 10px;
+}
+
+.front-row5{
+    padding-top: 20px;
+    font-size: 20px;
+    color:#999493FF ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.front-row5 img {
+    background-color: blue;
+    border-radius: 50px;
+   margin-left: -1rem;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+.text-front{
+    padding-left: 5px;
+    text-align: left;
+    font-size: 15px;
+}
+
+
+.supercharge {
+    display: inline-block;
+    margin-top: 100px;
+    
+}
+
+.supercharge img{
+    border: 1px solid grey; 
+    border-radius: 25px;
+    max-width: 100%;
+    margin-right: 100px;
+    
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .front-row2 {
+        font-size: 10px;
+        
+
+    }
+
+    .supercharge{
+        max-width: 80%;
+    }
+}
